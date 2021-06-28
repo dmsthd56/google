@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&display=swap');
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+label,span{
+    display: block;
+}
+
+.header {
+    height: 40px;
+    position: relative;
+    margin-top: 26px;
+}
+.section{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.footer{
+    height: 100px;
+    background-color: #eee;
+}
+
+/*header 부분*/
+.menus{
+    width: 20%; height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute; right: 15px;
+}
+.menus li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.loginBtn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(52, 52, 241);
+    color: white;
+    cursor: pointer;
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 100%; 
+    object-fit: contain;
+}
+
+
+/*section 부분*/
+.searchs{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.topsearch{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+.searchBox{
+    margin: 0 auto;
+    width: 600px;
+    height: 50px;
+    border: 1px solid #888;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon1{
+    width: 10%;
+    text-align: center;
+    line-height: 60px;
+}
+.icon1 svg{
+    cursor: pointer;
+}
+.icon2{
+    width: 15%;
+    text-align: center;
+    line-height: 60px;
+}
+.icon2 svg{
+    width: 40px;
+    cursor: pointer;
+}
+.inputtext{
+    width: 75%;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.keywords{
+    margin: 0 auto;
+    width: 600px;
+    height: 70px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.keywords span {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 5px;
+    background-color: rgba(204, 204, 204, 0.2);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*footer 부분*/
+.footerTop{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+.footerTop > div{
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+.footerBottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerCss1{
+    margin-left: 20px;
+}
+.footerCss2{
+    margin-right: 20px;
+}
+.footerCss1,.footerCss2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #555;
+}
+.footerCss1 > li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+} 
+.footerCss2 > li{
+    width: 50px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.footerCss2 > li:first-child{
+    width: 150px;
+} 
